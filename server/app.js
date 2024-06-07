@@ -70,7 +70,7 @@ app.listen(port, () => {
 //connect with mongo db
 
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://gloop216:t6OwXxDJu1KR9YA3@cluster0.nryicsp.mongodb.net/myData?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("")
     .then(() => console.log("connected to db"))
     .catch((err) => console.log(err));
 
